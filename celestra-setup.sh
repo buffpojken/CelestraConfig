@@ -40,3 +40,6 @@ cd Downloads
 wget http://cl.ly/image/0t1N1t2Z0U41/Start2.png
 
 
+git config --global user.name "buffpojken"
+git config --global user.email daniel@sykewarrior.com
+
