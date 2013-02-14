@@ -38,6 +38,7 @@ cd ../..
 # Download proper startscreen
 cd Downloads
 wget http://cl.ly/image/0t1N1t2Z0U41/Start2.png
+fbsetbg /home/sysad/Downloads/Start2.png
 
 
 git config --global user.name "buffpojken"
