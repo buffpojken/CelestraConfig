@@ -44,5 +44,6 @@ fbsetbg /home/sysad/Downloads/Start2.png
 git config --global user.name "buffpojken"
 git config --global user.email daniel@sykewarrior.com
 
+cd ..
 cp CelestraConfig/overlay .fluxbox/overlay
 cp CelestraConfig/startup .fluxbox/startup
