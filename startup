@@ -18,9 +18,17 @@ fbsetbg /home/sysad/Downloads/Start2.png
 /usr/lib/vino/vino-server &
 #chromium-browser --kiosk --incognito http://google.com
 
+fluxbox &
+fbpid=$!
+
+sleep 1
+{
+sh /home/sysad/CelestraConfig/console-startup.sh &
+} &
+
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.
 
-exec fluxbox
+#exec fluxbox
 # or if you want to keep a log:
 # exec fluxbox -log "/home/celestra/.fluxbox/log"
