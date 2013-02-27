@@ -14,6 +14,7 @@ xmodmap "/home/celestra/.Xmodmap"
 # wmnd &
 # wmsmixer -w &
 # idesk &
+xset -dpms
 fbsetbg /home/sysad/Downloads/Start2.png
 /usr/lib/vino/vino-server &
 #chromium-browser --kiosk --incognito http://google.com
